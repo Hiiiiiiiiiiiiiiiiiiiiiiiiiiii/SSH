@@ -16,6 +16,10 @@ public class Product {
     @Column(name="comment_num")
     private int commentNum;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "type_id")
+    private ProductType productType;
+
     public int getId() {
         return id;
     }
@@ -62,5 +66,25 @@ public class Product {
 
     public void setCommentNum(int commentNum) {
         this.commentNum = commentNum;
+    }
+
+    public ProductType getProductType() {
+        return productType;
+    }
+
+    public void setProductType(ProductType productType) {
+        this.productType = productType;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", productName='" + productName + '\'' +
+                ", price=" + price +
+                ", marketPrice=" + marketPrice +
+                ", place='" + place + '\'' +
+                ", commentNum=" + commentNum +
+                '}';
     }
 }

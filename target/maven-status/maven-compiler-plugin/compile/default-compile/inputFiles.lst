@@ -1,4 +1,8 @@
 C:\SSH\src\main\java\com\kaishengit\ssm\pojo\Product.java
 C:\SSH\src\main\java\com\kaishengit\ssm\collector\ProductCollector.java
 C:\SSH\src\main\java\com\kaishengit\ssm\Dao\ProductDao.java
+C:\SSH\src\main\java\com\kaishengit\ssm\exception\ServiceException.java
 C:\SSH\src\main\java\com\kaishengit\ssm\service\ProductService.java
+C:\SSH\src\main\java\com\kaishengit\ssm\util\RequestQuery.java
+C:\SSH\src\main\java\com\kaishengit\ssm\pojo\ProductType.java
+C:\SSH\src\main\java\com\kaishengit\ssm\Dao\BaseDao.java

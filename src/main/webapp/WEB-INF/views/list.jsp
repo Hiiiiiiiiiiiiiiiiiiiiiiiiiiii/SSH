@@ -12,7 +12,17 @@
 </head>
 <body>
 <div class="container">
-    <a href="/product/new" class="btn btn-success">添加</a>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <form action="" method="get" class="form-inline">
+                <input type="text" placeholder="商品名称" value="${param.q_productName_like_s}" name="q_productName_like_s" class="form-control">
+                <input type="text" placeholder="价格" value="${param.q_price_eq_bd}" name="q_price_eq_bd">
+                <input type="text" placeholder="市场价格" value="${param.q_marketPrice_eq_bd}" name="q_marketPrice_eq_bd">
+                <button class="btn btn-default">搜索</button>
+            </form>
+        </div>
+    </div>
+    <a href="/product/add" class="btn btn-success">添加</a>
     <table class="table">
         <thead>
         <tr>
@@ -26,7 +36,7 @@
         <tbody>
         <c:forEach items="${productList}" var="product">
             <tr>
-                <td>${product.productName}</td>
+                <td><a href="/product/message/${product.id}">${product.productName}</a></td>
                 <td>${product.price}</td>
                 <td>${product.marketPrice}</td>
                 <td>${product.place}</td>

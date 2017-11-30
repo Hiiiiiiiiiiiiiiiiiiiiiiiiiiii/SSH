@@ -1,4 +1,8 @@
-com\kaishengit\ssm\Dao\ProductDao.class
 com\kaishengit\ssm\service\ProductService.class
+com\kaishengit\ssm\Dao\BaseDao.class
+com\kaishengit\ssm\pojo\ProductType.class
+com\kaishengit\ssm\Dao\ProductDao.class
+com\kaishengit\ssm\exception\ServiceException.class
 com\kaishengit\ssm\pojo\Product.class
+com\kaishengit\ssm\util\RequestQuery.class
 com\kaishengit\ssm\collector\ProductCollector.class
