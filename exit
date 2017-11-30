@@ -1,0 +1,206 @@
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex ee4a677..42ddedb 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -5,6 +5,14 @@[m
+   </component>[m
+   <component name="ChangeListManager">[m
+     <list default="true" id="640b5d23-32dd-4775-a7b6-682fe112ea1b" name="Default" comment="">[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/ssm/Dao/BaseDao.class" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/ssm/exception/ServiceException.class" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/ssm/pojo/ProductType.class" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/ssm/util/RequestQuery.class" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/kaishengit/test/Farther.class" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/kaishengit/test/MethodTest.class" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/kaishengit/test/Son.class" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/message_jsp.class" />[m
+       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/ssm/Dao/BaseDao.java" />[m
+       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/ssm/exception/ServiceException.java" />[m
+       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/ssm/pojo/ProductType.java" />[m
+[36m@@ -15,6 +23,9 @@[m
+       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kaishengit/test/Farther.java" />[m
+       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kaishengit/test/MethodTest.java" />[m
+       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kaishengit/test/Son.java" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-11-30" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/message_jsp.java" />[m
+       <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-11-29" afterPath="" />[m
+       <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" />[m
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/ssm/Dao/ProductDao.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/ssm/Dao/ProductDao.class" />[m
+[36m@@ -68,7 +79,27 @@[m
+   </component>[m
+   <component name="FileEditorManager">[m
+     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">[m
+[31m-      <file leaf-file-name="MethodTest.java" pinned="false" current-in-tab="true">[m
+[32m+[m[32m      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="114">[m
+[32m+[m[32m              <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />[m
+[32m+[m[32m              <folding />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/pom.xml">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="-1153">[m
+[32m+[m[32m              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />[m
+[32m+[m[32m              <folding />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="MethodTest.java" pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/test/MethodTest.java">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+             <state relative-caret-position="240">[m
+[36m@@ -91,6 +122,16 @@[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[32m+[m[32m      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="60">[m
+[32m+[m[32m              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="31" />[m
+[32m+[m[32m              <folding />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+       <file leaf-file-name="Farther.java" pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/test/Farther.java">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[36m@@ -191,7 +232,7 @@[m
+   <component name="MavenRunner">[m
+     <option name="jreName" value="1.8" />[m
+   </component>[m
+[31m-  <component name="ProjectFrameBounds" extendedState="7">[m
+[32m+[m[32m  <component name="ProjectFrameBounds" extendedState="6">[m
+     <option name="x" value="-19" />[m
+     <option name="y" value="-23" />[m
+     <option name="width" value="1932" />[m
+[36m@@ -263,6 +304,28 @@[m
+               <item name="ssh" type="b2602c69:ProjectViewProjectNode" />[m
+               <item name="SSH" type="462c0819:PsiDirectoryNode" />[m
+               <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="main" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="resources" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="ssh" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="SSH" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="main" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="webapp" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="ssh" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="SSH" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="main" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="webapp" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="ssh" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="SSH" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+               <item name="test" type="462c0819:PsiDirectoryNode" />[m
+             </path>[m
+             <path>[m
+[36m@@ -537,7 +600,7 @@[m
+       <workItem from="1511956858938" duration="4102000" />[m
+       <workItem from="1511961072532" duration="97000" />[m
+       <workItem from="1512008892442" duration="17384000" />[m
+[31m-      <workItem from="1512041299738" duration="2352000" />[m
+[32m+[m[32m      <workItem from="1512041299738" duration="2485000" />[m
+     </task>[m
+     <servers />[m
+   </component>[m
+[36m@@ -574,10 +637,10 @@[m
+     </history-entry>[m
+   </component>[m
+   <component name="TimeTrackingManager">[m
+[31m-    <option name="totallyTimeSpent" value="31619000" />[m
+[32m+[m[32m    <option name="totallyTimeSpent" value="31752000" />[m
+   </component>[m
+   <component name="ToolWindowManager">[m
+[31m-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />[m
+[32m+[m[32m    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />[m
+     <editor active="true" />[m
+     <layout>[m
+       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />[m
+[36m@@ -875,14 +938,6 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/pom.xml">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="197">[m
+[31m-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />[m
+[31m-          <folding />[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.9.RELEASE/spring-orm-4.3.9.RELEASE.jar!/org/springframework/orm/hibernate4/HibernateTransactionManager.class">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+         <state relative-caret-position="227">[m
+[36m@@ -978,22 +1033,6 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="630">[m
+[31m-          <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />[m
+[31m-          <folding />[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="1560">[m
+[31m-          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="37" />[m
+[31m-          <folding />[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-servlet.xml">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+         <state relative-caret-position="0">[m
+[36m@@ -1077,6 +1116,30 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="114">[m
+[32m+[m[32m          <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />[m
+[32m+[m[32m          <folding />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/pom.xml">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="-1153">[m
+[32m+[m[32m          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />[m
+[32m+[m[32m          <folding />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="60">[m
+[32m+[m[32m          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="31" />[m
+[32m+[m[32m          <folding />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+   </component>[m
+   <component name="masterDetails">[m
+     <states>[m
+warning: LF will be replaced by CRLF in .idea/workspace.xml.
+The file will have its original line endings in your working directory.
